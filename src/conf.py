@@ -543,7 +543,7 @@ REDIRECTIONS = []
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {
     'default': [
-        "rsync -rav --delete output/ /home/ericst/public/",
+        "rsync -rav --delete output/ ericst@ericst.ch:~/public/",
     ]
 }
 
