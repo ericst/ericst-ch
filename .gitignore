@@ -1,0 +1,6 @@
+cache
+env
+src/output
+src/cache
+src/__pycache__
+src/state_data.json
